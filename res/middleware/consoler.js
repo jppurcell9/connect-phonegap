@@ -1,5 +1,5 @@
 <script type="text/javascript">
-requirejs(['/socket.io/socket.io'], function(io) {
+requirejs(['/socket.io/socket.io.js'], function(io) {
     (function(window) {
         var socket = io('http://127.0.0.1:3000');
         var previousConsole = window.console || {};

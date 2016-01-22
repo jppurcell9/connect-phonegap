@@ -1,5 +1,5 @@
 <script type="text/javascript">
-requirejs(['/socket.io/socket.io'], function(io) {
+requirejs(['/socket.io/socket.io.js'], function(io) {
     (function(window) {
         var socket = io('http://' + document.location.host);
         var previousConsole = window.console || {};
